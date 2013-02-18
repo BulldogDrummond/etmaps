@@ -1,0 +1,80 @@
+--- Possible useful images in levelshots.
+
+    Can be converted to jpg and resized with:
+        convert -resize 384 adlernest.tga adlernest.jpg
+        (Note: this requires imagemagick)
+    Resulting images should NOT be re-packed into map file.
+
+--- Fetch summary info from scipts/*.arena
+
+    Data in map, longname, and briefing seem most useful.
+
+
+Example:
+========
+
+{
+	map			"adlernest"
+	longname		"Adlernest"
+	type			"wolfmp wolfsw"
+	timelimit		15
+	axisRespawnTime		30
+	alliedRespawnTime	20
+	briefing		"Adlernest Final**Steal the documents and bring them to the transmitter. The tank has created an entry point into the Axis base, but for further access Allies need to dynamight the Door controls in the lower level. The CP will give Allies a forward spawn.**By Dersaidin"
+	axiswintext		"Axis have defended Adlernest base"
+	alliedwintext		"Allies have defeated Adlernest base"	
+	mapposition_x	501
+	mapposition_y	533
+}
+
+
+========
+
+--- Fetch detail objective data from maps/*.objdata
+
+    Data in wm_mapdescription neutral seems most useful.  Possibly look at parsing out wm_objective_*_desc *
+    data for more detailed overview.
+
+Example:
+========
+
+// Set scenario information
+wm_mapdescription allied "Adlernest**Allied attack on the Adlernest base to steal the war documents."
+wm_mapdescription axis "Adlernest**Axis must defend Adlernest base."
+wm_mapdescription neutral "Adlernest**The Adlernest base, high in the mountains of sothern Germany, is a meeting location for the Axis High Command. The allies have launched a midnight attack on Adlernest to steal Top secret documents."
+
+
+	// Axis objective descriptions
+		wm_objective_axis_desc 1 "Primary Objective:**Defend the documents."
+		wm_objective_axis_desc 2 "Primary Objective:**Prevent the allies from transmitting the documents."
+		wm_objective_axis_desc 3 "Secondary Objective:**Stop the allies from constructing a command post, or destroy it if it has been made."
+		wm_objective_axis_desc 4 "Secondary Objective:**Protect the door controls in the basement level and prevent allies from gaining access to the upper complex."
+		wm_objective_axis_desc 5 "Additional Objective:**Keep the main blast door closed to hinder the allies progress."
+
+	// Allied objective descriptions
+		wm_objective_allied_desc 1 "Primary Objective:**Steal the documents."
+		wm_objective_allied_desc 2 "Primary Objective:**Transmit the documents at the transmitter."
+		wm_objective_allied_desc 3 "Secondary Objective:**Construct the command post to activate a forward spawn."
+		wm_objective_allied_desc 4 "Secondary Objective:**Dynamight the door controls located in the basement level.*Alternatively, a covert could infiltrate the upper base with a uniform."
+		wm_objective_allied_desc 5 "Additional Objective:**Open the main blast door to gain additional acces"
+
+========
+
+--- Some additional data would be nice, for example:
+
+    This block from maps/*.script:
+
+========
+
+// Respawn times, objective count, and match time limit
+wm_axis_respawntime 30
+wm_allied_respawntime 20
+wm_number_of_objectives 5
+wm_set_round_timelimit 15
+
+// Defending team: 0 is Axis, 1 is Allies
+wm_set_defending_team 0
+
+========
+
+
