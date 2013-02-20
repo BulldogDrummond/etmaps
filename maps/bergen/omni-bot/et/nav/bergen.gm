@@ -424,19 +424,19 @@ global OnMapLoad = function()
 
 	OnTrigger( "transmitter_door_1_goto", Map.transmitter_door_1 );
 	OnTrigger( "transmitter_door_2_goto", Map.transmitter_door_2 );
-	OnTrigger( "Axis team has built the Barricade!", Map.barricade_Built );
+	OnTrigger( "The Axis defenders have built the Barricade!", Map.barricade_Built );
 	//OnTrigger( "Allied team has destroyed the Barricade!", Map.barricade_Destroyed );
-	OnTrigger( "Allies have destroyed the rear door!!", Map.dynoteamdoor_Destroyed );
+	OnTrigger( "The Allies have destroyed the rear door!!", Map.dynoteamdoor_Destroyed );
 	OnTrigger( "bergen_axis_main_distroyed", Map.MainDoor_Destroyed );
-	OnTrigger( "Allied team has repaired the generator!", Map.allied_genny_belt_Built );
-	OnTrigger( "Axis team has destroyed the generator!", Map.allied_genny_belt_Destroyed );
+	OnTrigger( "The Allies have repaired the generator!", Map.allied_genny_belt_Built );
+	OnTrigger( "The Axis forces have destroyed the generator!", Map.allied_genny_belt_Destroyed );
 	OnTrigger( "bergen_allies_tank_damaged", Map.tank_Damaged );
 	OnTrigger( "The Transmitter area has been breached!", Map.Transmitter_Area_Breached );
 	OnTrigger( "The Transmitter area has been closed!", Map.Transmitter_Area_Closed );
-	OnTrigger( "Allies capture the Front Bunker!", Map.Allies_Capture_Flag );
-	OnTrigger( "Axis reclaim the Front Bunker!", Map.Axis_Capture_Flag );
-	OnTrigger( "Allied team has built the Footbridge!", Map.FootBridge_Built );
-	OnTrigger( "Allied team has destroyed the Footbridge!", Map.FootBridge_Destroyed );
+	OnTrigger( "The Allies capture the Front Bunker!", Map.Allies_Capture_Flag );
+	OnTrigger( "The Axis defenders reclaim the Front Bunker!", Map.Axis_Capture_Flag );
+	OnTrigger( "The Allies forces have built the Footbridge!", Map.FootBridge_Built );
+	OnTrigger( "The Axis forces have destroyed the Footbridge!", Map.FootBridge_Destroyed );
 
 	Util.UpdateSwitchData();
 
