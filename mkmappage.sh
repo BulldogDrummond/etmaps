@@ -16,14 +16,13 @@ do
   REGION_NAME=`echo $MAPIDX | awk -F: '{print $3}' | tr "_" " "`
   COMPASS=`echo $MAPIDX | awk -F: '{print $4}'`
   NIGHT=`echo $MAPIDX | awk -F: '{print $6}'`
-  WEATHER=`echo $MAPIDX | awk -F: '{print $7}'`
-  MAP_NAME=`echo $MAPIDX | awk -F: '{print $8}'`
-  FILE_NAME=`echo $MAPIDX | awk -F: '{print $9}'`
-  if [ $NIGHT = "1" ]; then
-    DAYLIGHT="NIGHT"
-  else
-    DAYLIGHT="DAY"
-  fi
+  MTIME=`echo $MAPIDX | awk -F: '{print $7}'`
+  WEATHER=`echo $MAPIDX | awk -F: '{print $8}'`
+  MAP_NAME=`echo $MAPIDX | awk -F: '{print $9}'`
+  MAP_LNAME=`echo $MAPIDX | awk -F: '{print $10}' | tr "_" " "`
+  FILE_NAME=`echo $MAPIDX | awk -F: '{print $11}'`
+  TLIMIT=`echo $MAPIDX | awk -F: '{print $12}'`
+  DEFEND=`echo $MAPIDX | awk -F: '{print $13}'`
   MAPID="${REGION_CODE}-${ORDER}"
   mkdir ${MAP_NAME}
   cd ${MAP_NAME}
@@ -47,7 +46,7 @@ do
   echo "<table width=90%>" >> ${MAP_HTML}
   echo "<tr><td>ID: ${MAPID}</td><td>${MAP_LONGNAME} / ${MAP_NAME}</td></tr>" >> ${MAP_HTML}
   echo "<tr><td>Region:</td><td>${REGION_NAME} (${REGION_CODE}) / ${COMPASS}</td></tr>" >> ${MAP_HTML}
-  echo "<tr><td>Conditions:</td><td>${DAYLIGHT} / ${WEATHER}</td></tr>" >> ${MAP_HTML}
+  echo "<tr><td>Conditions:</td><td>${MTIME} / ${WEATHER}</td></tr>" >> ${MAP_HTML}
   echo "<tr><td colspan=2>&nbsp;</td></tr>" >> ${MAP_HTML}
   echo "<tr><td colspan=2>Briefing:</td></tr>" >> ${MAP_HTML}
   echo "<tr><td colspan=2>${MAP_BRIEFING}</td></tr>" >> ${MAP_HTML} 

@@ -1,6 +1,7 @@
 #!/bin/sh
 
-MAPLIMIT="d61"
+IDXROWS=`cat mapindex.dat | wc -l`
+MAPLIMIT="d${IDXROWS}"
 
 echo "/////////////////////////////////////////////////////////////////////////"
 echo "//"
@@ -39,17 +40,19 @@ do
   COMPASS=`echo $MAPIDX | awk -F: '{print $4}'`
   COMP_CODE=`echo $MAPIDX | awk -F: '{print $5}'`
   NIGHT=`echo $MAPIDX | awk -F: '{print $6}'`
-  WEATHER=`echo $MAPIDX | awk -F: '{print $7}'`
-  MAP_NAME=`echo $MAPIDX | awk -F: '{print $8}'`
-  FILE_NAME=`echo $MAPIDX | awk -F: '{print $9}'`
-  if [ $NIGHT = "1" ]; then
-    DAYLIGHT="NIGHT"
-  else
-    DAYLIGHT="DAY"
-  fi
-  echo "// Map        : ${REGION_CODE}-${ORDER}"
+  MTIME=`echo $MAPIDX | awk -F: '{print $7}'`
+  WEATHER=`echo $MAPIDX | awk -F: '{print $8}'`
+  MAP_NAME=`echo $MAPIDX | awk -F: '{print $9}'`
+  MAP_LNAME=`echo $MAPIDX | awk -F: '{print $10}' | tr "_" " "`
+  FILE_NAME=`echo $MAPIDX | awk -F: '{print $11}'`
+  TLIMIT=`echo $MAPIDX | awk -F: '{print $12}'`
+  DEFEND=`echo $MAPIDX | awk -F: '{print $13}'`
+  echo "// Name       : ${MAP_LNAME}"
+  echo "// Defending  : ${DEFEND}"
+  echo "// Time Limit : ${TLIMIT} min."
+  echo "// Map ID     : ${REGION_CODE}-${ORDER}"
   echo "// Region     : ${REGION_NAME} / ${COMPASS}"
-  echo "// Conditions : ${WEATHER} / ${DAYLIGHT}"
+  echo "// Conditions : ${WEATHER} / ${MTIME}"
   echo "// Map Source : ${MAP_NAME} / ${FILE_NAME}"
   THIS_OM="d${ZF}${DNUM}"
   NEXT_OM="d${ZF}${NEXTD}"
