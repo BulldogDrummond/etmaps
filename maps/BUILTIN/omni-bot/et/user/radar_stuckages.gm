@@ -1,0 +1,5 @@
+global Stuckages = {};
+Stuckages[ tableCount(Stuckages) ] = Vector3(-855.875,1877.87,1324.12);
+Stuckages[ tableCount(Stuckages) ] = Vector3(334.185,-2896.13,1494.12);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-1389.87,-891.196,1112.12);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-332.128,1684.26,1396.12);

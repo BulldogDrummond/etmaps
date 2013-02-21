@@ -1,0 +1,10 @@
+global Stuckages = {};
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10047,-5315.87,240.125);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10079.6,-5427.25,464.125);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10466.1,-5330.13,495.547);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10183.5,-2876.99,788.125);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10009.1,-6601.01,208.125);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10201.3,-2843.88,711.875);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10175.9,-6689.13,208.125);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10198.3,-2842.66,515.439);
+Stuckages[ tableCount(Stuckages) ] = Vector3(-10208.4,-2878.05,788.125);
