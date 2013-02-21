@@ -1,7 +1,7 @@
 REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG_NAME:FILE_NAME:TIME_LIMIT:DEFENDING
 01:00:North_Africa:LOWER:0:0:DAY:CLEAR:oasis:Siwa_Oasis:BUILTIN:30:Axis
 01:01:North_Africa:LOWER:0:0:DAY:CLEAR:et_mor_pro:Unknown:et_mor_pro.pk3:Unknown:Axis
-01:02:North_Africa:LOWER:0:0:DAY:CLEAR:citadel_obj:Unknown:citadel_obj.pk3:Unknown:Axis
+01:02:North_Africa:LOWER:0:0:DAY:CLEAR:citadel:The_Citadel:citadel.pk3:15:Axis
 01:03:North_Africa:UPPER:1:0:DAY:CLEAR:goldrush:Gold_Rush:BUILTIN:30:Axis
 02:00:Central_Europe:LOWER:0:0:DAY:CLEAR:battery:Seawall_Battery:BUILTIN:20:Axis
 02:01:Central_Europe:LOWER:0:0:DAY:RAINING:radar:Wurzburg_Radar:BUILTIN:20:Axis
