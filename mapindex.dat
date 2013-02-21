@@ -6,7 +6,7 @@ REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG
 02:00:Central_Europe:LOWER:0:0:DAY:CLEAR:battery:Seawall_Battery:BUILTIN:20:Axis
 02:01:Central_Europe:LOWER:0:0:DAY:RAINING:radar:Wurzburg_Radar:BUILTIN:20:Axis
 02:02:Central_Europe:LOWER:0:1:NIGHT:CLEAR:et_beach:Unknown:et_beach.pk3:Unknown:Axis
-02:03:Central_Europe:LOWER:0:0:DAY:CLOUDY:crevasse_pe:Unknown:crevasse_pe.pk3:Unknown:Unknown
+02:03:Central_Europe:LOWER:0:0:DAY:CLOUDY:crevasse:Crevasse:crevasse.pk3:15:Axis
 02:04:Central_Europe:LOWER:0:0:DAY:CLOUDY:braundorf:Braundorf:braundorf.pk3:20:Axis
 02:05:Central_Europe:LOWER:0:1:NIGHT:FOG:navarone:Navarone:navarone.pk3:Unknown:Axis
 02:06:Central_Europe:LOWER:0:0:DAY:CLEAR:venice:Venice:venice.pk3:Unknown:Axis
