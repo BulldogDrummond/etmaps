@@ -10,7 +10,7 @@ REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG
 02:04:Central_Europe:LOWER:0:0:DAY:CLOUDY:braundorf:Braundorf:braundorf.pk3:20:Axis
 02:05:Central_Europe:LOWER:0:1:NIGHT:FOG:navarone:Navarone:navarone.pk3:Unknown:Axis
 02:06:Central_Europe:LOWER:0:0:DAY:CLEAR:venice:Venice:venice.pk3:Unknown:Axis
-02:07:Central_Europe:UPPER:1:0:DAY:CLEAR:caen_4:Unknown:caen_4.pk3:Unknown:Allies
+02:07:Central_Europe:UPPER:1:0:DAY:CLEAR:caen:Caen:caen.pk3:25:Allies
 02:08:Central_Europe:UPPER:1:0:DAY:CLOUDY:bremen:Bremen:bremen.pk3:15:Axis
 02:09:Central_Europe:UPPER:1:0:DAY:CLOUDY:exodus_a4b:Unknown:exodus_a4b.pk3:Unknown:Axis
 02:10:Central_Europe:UPPER:1:0:DAY:CLEAR:bergen:Bergen:bergen.pk3:20:Axis
