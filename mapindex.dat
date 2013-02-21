@@ -1,10 +1,10 @@
 REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG_NAME:FILE_NAME:TIME_LIMIT:DEFENDING
-01:00:North_Africa:LOWER:0:0:DAY:CLEAR:oasis:Siwa_Oasis:BUILTIN:Unknown:Axis
+01:00:North_Africa:LOWER:0:0:DAY:CLEAR:oasis:Siwa_Oasis:BUILTIN:30:Axis
 01:01:North_Africa:LOWER:0:0:DAY:CLEAR:et_mor_pro:Unknown:et_mor_pro.pk3:Unknown:Axis
 01:02:North_Africa:LOWER:0:0:DAY:CLEAR:citadel_obj:Unknown:citadel_obj.pk3:Unknown:Axis
-01:03:North_Africa:UPPER:1:0:DAY:CLEAR:goldrush:Gold_Rush:BUILTIN:Unknown:Axis
-02:00:Central_Europe:LOWER:0:0:DAY:CLEAR:battery:Seawall_Battery:BUILTIN:Unknown:Axis
-02:01:Central_Europe:LOWER:0:0:DAY:RAINING:radar:Unknown:BUILTIN:Unknown:Axis
+01:03:North_Africa:UPPER:1:0:DAY:CLEAR:goldrush:Gold_Rush:BUILTIN:30:Axis
+02:00:Central_Europe:LOWER:0:0:DAY:CLEAR:battery:Seawall_Battery:BUILTIN:20:Axis
+02:01:Central_Europe:LOWER:0:0:DAY:RAINING:radar:Wurzburg_Radar:BUILTIN:20:Axis
 02:02:Central_Europe:LOWER:0:1:NIGHT:CLEAR:et_beach:Unknown:et_beach.pk3:Unknown:Axis
 02:03:Central_Europe:LOWER:0:0:DAY:CLOUDY:crevasse_pe:Unknown:crevasse_pe.pk3:Unknown:Unknown
 02:04:Central_Europe:LOWER:0:0:DAY:CLOUDY:braundorf:Braundorf:braundorf.pk3:20:Axis
@@ -18,9 +18,9 @@ REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG
 02:12:Central_Europe:UPPER:1:0:DAY:CLEAR:supplydepot2:Unknown:supplydepot2.pk3:Unknown:Axis
 02:13:Central_Europe:UPPER:1:0:DAY:CLOUDY:tc_base:Unknown:tc_base.pk3:Unknown:Unknown
 02:14:Central_Europe:UPPER:1:0:DAY:CLOUDY:v2base:Unknown:v2base.pk3:Unknown:Unknown
-03:00:Northern_Europe:UPPER:1:0:DAY:SNOWING:railgun:Unknown:BUILTIN:Unknown:Axis
+03:00:Northern_Europe:UPPER:1:0:DAY:SNOWING:railgun:Rail_Gun:BUILTIN:30:Axis
 03:01:Northern_Europe:UPPER:1:1:NIGHT:CLOUDY:axislab:Axis_Lab:axislab.pk3:25:Axis
-03:02:Northern_Europe:UPPER:1:0:DAY:SNOWING:fueldump:Unknown:BUILTIN:Unknown:Unknown
+03:02:Northern_Europe:UPPER:1:0:DAY:SNOWING:fueldump:Fuel_Dump:BUILTIN:30:Axis
 03:03:Northern_Europe:UPPER:1:0:DAY:SNOWING:eagles2_a6:Unknown:eagles2_a6.pk3:Unknown:Unknown
 03:04:Northern_Europe:UPPER:1:1:NIGHT:FOG:et_ice:Unknown:et_ice.pk3:Unknown:Unknown
 03:05:Northern_Europe:UPPER:1:0:DAY:CLOUDY-SNOW:et_village:Unknown:et_village.pk3:Unknown:Unknown
