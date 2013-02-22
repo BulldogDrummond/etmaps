@@ -27,5 +27,5 @@ REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG
 03:06:Northern_Europe:UPPER:1:1:NIGHT:CLEAR-SNOW:frostbite:Unknown:frostbite.pk3:Unknown:Unknown
 03:07:Northern_Europe:UPPER:1:1:NIGHT:SNOWING:missile_b3:Unknown:missile_b3.pk3:Unknown:Unknown
 03:08:Northern_Europe:UPPER:1:0:DAY:CLEAR-SNOW:transmitter:Unknown:transmitter.pk3:Unknown:Axis
-03:09:Northern_Europe:LOWER:0:1:NIGHT:CLEAR:et_dam_b1:Unknown:et_dam_b1.pk3:Unknown:Unknown
+03:09:Northern_Europe:LOWER:0:1:NIGHT:CLEAR:bramburg:Bramburg_Dam:bramburg.pk3:15:Axis
 03:10:Northern_Europe:UPPER:1:0:DAY:SNOWING:stalingrad:Unknown:stalingrad.pk3:Unknown:Axis
