@@ -23,7 +23,7 @@ REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG
 03:02:Northern_Europe:UPPER:1:0:DAY:SNOWING:fueldump:Fuel_Dump:BUILTIN:30:Axis
 03:03:Northern_Europe:UPPER:1:0:DAY:SNOWING:eagles:Castle_of_Eagles:eagles.pk3:20-40:Axis
 03:04:Northern_Europe:UPPER:1:1:NIGHT:FOG:ice:Ice:ice.pk3:15:Allies
-03:05:Northern_Europe:UPPER:1:0:DAY:CLOUDY-SNOW:et_village:Unknown:et_village.pk3:Unknown:Unknown
+03:05:Northern_Europe:UPPER:1:0:DAY:CLOUDY-SNOW:village:Village:village.pk3:12:Axis
 03:06:Northern_Europe:UPPER:1:1:NIGHT:CLEAR-SNOW:frostbite:Unknown:frostbite.pk3:Unknown:Unknown
 03:07:Northern_Europe:UPPER:1:1:NIGHT:SNOWING:missile_b3:Unknown:missile_b3.pk3:Unknown:Unknown
 03:08:Northern_Europe:UPPER:1:0:DAY:CLEAR-SNOW:transmitter:Unknown:transmitter.pk3:Unknown:Axis
