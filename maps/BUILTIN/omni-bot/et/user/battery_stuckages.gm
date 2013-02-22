@@ -1,6 +1,0 @@
-global Stuckages = {};
-Stuckages[ tableCount(Stuckages) ] = Vector3(628.894,-2405.87,792.125);
-Stuckages[ tableCount(Stuckages) ] = Vector3(1858.85,-2818.12,829.385);
-Stuckages[ tableCount(Stuckages) ] = Vector3(3897.73,-3046.63,932.125);
-Stuckages[ tableCount(Stuckages) ] = Vector3(3655.97,-4376.1,920.126);
-Stuckages[ tableCount(Stuckages) ] = Vector3(614.571,-2408.73,819.625);
