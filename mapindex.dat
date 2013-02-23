@@ -14,7 +14,7 @@ REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG
 02:08:Central_Europe:UPPER:1:0:DAY:CLOUDY:bremen:Bremen:bremen.pk3:15:Axis
 02:09:Central_Europe:UPPER:1:0:DAY:CLOUDY:exodus:Exodus:exodus.pk3:25:Axis
 02:10:Central_Europe:UPPER:1:0:DAY:CLEAR:bergen:Bergen:bergen.pk3:20:Axis
-02:11:Central_Europe:UPPER:1:1:NIGHT:RAINING:mp_sub_rc1:Unknown:mp_sub_rc1.pk3:Unknown:Unknown
+02:11:Central_Europe:UPPER:1:1:NIGHT:RAINING:dasboot:Das_Boot:dasboot.pk3:18:Axis
 02:12:Central_Europe:UPPER:1:0:DAY:CLEAR:supplydepot2:Unknown:supplydepot2.pk3:Unknown:Axis
 02:13:Central_Europe:UPPER:1:0:DAY:CLOUDY:tc_base:Unknown:tc_base.pk3:Unknown:Unknown
 02:14:Central_Europe:UPPER:1:0:DAY:CLOUDY:v2base:Unknown:v2base.pk3:Unknown:Unknown
