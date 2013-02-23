@@ -14,7 +14,7 @@ echo "Processing $MAPBASE..."
 mkdir -p working/$MAPBASE
 cd working/$MAPBASE
 
-unzip ../../map-source/$MAPFILE
+unzip ../../maps/$MAPBASE/$MAPFILE
 
 echo "Map has been unpacked to working/$MAPBASE"
 
