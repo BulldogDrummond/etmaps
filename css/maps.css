@@ -11,15 +11,15 @@
 .mainbody{  margin-top: 20px; margin-left: auto;margin-right: auto; width:980px}
 
 /* Layout : Index Page */
-.LayoutIndex_1{width:100%; background-color:#DFDAC7; float:left;}
-.LayoutIndex_2{width:100%; background-color:#A37B45; float:left; height:100px;}
+.LayoutIndex_main{width:100%; background-color:#DFDAC7; float:left;}
+.LayoutIndex_footer{width:100%; background-color:#A37B45; float:left; height:100px;}
 .LayoutIndex_header{background-color:#507642; width:100%; height:100px;}
 
 /* Layout : Map Page */
-.LayoutMap_1{width:50%; background-color:#DFDAC7; float:left; height:800px;}
-.LayoutMap_2{width:50%; background-color:#CCCFBC; float:left; height:400px;}
-.LayoutMap_3{width:50%; background-color:#CCCFBC; float:left; height:400px;}
-.LayoutMap_4{width:100%; background-color:#A37B45; float:left; height:100px;}
+.LayoutMap_briefing{width:50%; background-color:#DFDAC7; float:left; height:800px;}
+.LayoutMap_ccimg{width:50%; background-color:#CCCFBC; float:left; height:400px;}
+.LayoutMap_img{width:50%; background-color:#CCCFBC; float:left; height:400px;}
+.LayoutMap_footer{width:100%; background-color:#A37B45; float:left; height:100px;}
 .LayoutMap_header{background-color:#507642; width:100%; height:100px;}
 
 a:link    {text-decoration:none; color:#003300;}
@@ -33,6 +33,13 @@ h2{
     text-align:center;
 }
 
+h4{
+    font-family: armata;
+    color:#003300;
+    text-align:left;
+    margin-left: 6px;
+}
+
 h5{
     font-family: armata;
     color:#DFDAC7;
@@ -43,13 +50,27 @@ th{
     font-weight: bold;
 }
 
-p{
+p.typewriter{
     font-family: special_elite;
+    margin-left: 8px;
+}
+
+p.typewriter-bold{
+    font-family: special_elite;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 table.center {
     width:96%; 
     margin-left:2%; 
     margin-right:2%;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
 }
 
