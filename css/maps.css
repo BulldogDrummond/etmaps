@@ -8,10 +8,10 @@
     src: url('Armata-Regular.ttf');
 }
 
-.mainbody{  margin-top: 20px; margin-left: auto;margin-right: auto; width:860px}
+.mainbody{  margin-top: 20px; margin-left: auto;margin-right: auto; width:980px}
 
 /* Layout : Index Page */
-.LayoutIndex_1{width:100%; background-color:#DFDAC7; float:left; height:400px;}
+.LayoutIndex_1{width:100%; background-color:#DFDAC7; float:left;}
 .LayoutIndex_2{width:100%; background-color:#A37B45; float:left; height:100px;}
 .LayoutIndex_header{background-color:#507642; width:100%; height:100px;}
 
@@ -21,6 +21,11 @@
 .LayoutMap_3{width:50%; background-color:#CCCFBC; float:left; height:400px;}
 .LayoutMap_4{width:100%; background-color:#A37B45; float:left; height:100px;}
 .LayoutMap_header{background-color:#507642; width:100%; height:100px;}
+
+a:link    {text-decoration:none; color:#003300;}
+a:visited {text-decoration:none; color:#003300;}
+a:hover   {text-decoration:none; color:#86942A;}
+a:active  {text-decoration:none; color:#86942A;} 
 
 h2{
     font-family: armata;
@@ -34,6 +39,17 @@ h5{
     text-align:center;
 }
 
+th{
+    font-weight: bold;
+}
+
 p{
     font-family: special_elite;
 }
+
+table.center {
+    width:96%; 
+    margin-left:2%; 
+    margin-right:2%;
+}
+
