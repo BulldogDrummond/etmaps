@@ -64,7 +64,7 @@ do
     echo "        <tr><td>Omni-Bot File:</td><td><a href=${MAP_BOTS}>${MAP_BOTS}</a></td></tr>" >> ${MAP_HTML}
   fi
   echo "      </table>" >> ${MAP_HTML}
-  echo "      <br><a href=/etmaps>&lt;---- Return to Index</a>" >> ${MAP_HTML}
+  echo "      <br><a href=/etmaps>&lt;---- Return to Map Index</a>" >> ${MAP_HTML}
   echo "    </p>" >> ${MAP_HTML}
   echo "  </div>" >> ${MAP_HTML}
   echo "  <div class=LayoutMap_ccimg><IMG SRC=${MAP_CCIMG} class="center"></div>" >> ${MAP_HTML}

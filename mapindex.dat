@@ -15,7 +15,7 @@ REGION_CODE:ORDER:REGION_NAME:COMPASS:COMP_CODE:NIGHT:TIME:WEATHER:MAP_NAME:LONG
 02:09:Central_Europe:UPPER:1:0:DAY:CLEAR:supplydepot:Supply_Depot:supplydepot.pk3:15:Axis
 02:10:Central_Europe:UPPER:1:0:DAY:CLOUDY:radarbase:Radar_Base:radarbase.pk3:15:Axis
 02:11:Central_Europe:UPPER:1:0:DAY:CLOUDY:v2base:V2_Base:v2base.pk3:30:Axis
-03:00:Northern_Europe:UPPER:1:0:DAY:SNOWING:railgun:Rail_Gun:BUILTIN:30:Axis
+03:00:Northern_Europe:UPPER:1:0:DAY:SNOWING:railgun:Rail_Gun:BUILTIN:30:Allies
 03:01:Northern_Europe:UPPER:1:1:NIGHT:CLOUDY:axislab:Axis_Lab:axislab.pk3:25:Axis
 03:02:Northern_Europe:UPPER:1:0:DAY:SNOWING:fueldump:Fuel_Dump:BUILTIN:30:Axis
 03:03:Northern_Europe:UPPER:1:0:DAY:SNOWING:eagles:Castle_of_Eagles:eagles.pk3:20-40:Axis
